@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<title>Galeons Page</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+	    <!---<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	    <span class="icon-bar"></span>
+	    <span class="icon-bar"></span>
+	    <span class="icon-bar"></span>                        
+			</button>-->
+			<a class="navbar-brand" href="#">Paweł Rzońca</a>
+			</div>
+																																					
+		</div>	
+</div>
+  
+<div class="container">
+	<div class="row">
+								
+		<div class="col-sm-2">
+			<ul class="nav nav-pills nav-stacked">
+				<li class="active"><a data-toggle="pill" href="#home">Strona główna/Home</a></li>
+				<li><a data-toggle="pill" href="#proj">CV/Projekty</a></li>
+				<li><a data-toggle="pill" href="#links">Linki</a></li>
+				<li><a data-toggle="pill" href="#contact">Kontakt</a></li>
+			</ul>
+		</div>
+
+		<div class="col-sm-8">
+				<div class="tab-content">
+										
+				<div id="home" class="tab-pane fade in active">
+					<blockquote>Gdybym mówił językami ludzi oraz aniołów, a miłości bym nie miał, 
+									stałbym się jak brzęczące pieniądze, albo cymbał wznoszący brzmienie o la, la.
+									<footer>Pierwszy list do Koryntian 13:1</footer>
+					</blockquote>
+				</div>
+
+
+				<div id="proj" class="tab-pane fade">
+					<div class="well">
+					<blockquote>Quidquid Latine dictum sit, altum videtur
+									<footer>sentencja łacińska</footer>
+					</blockquote>
+					<h4>Curriculum Vitae</h4>
+					<p><a href="./resume.pdf">résumé</a> &larr; Eng version (2 II 2018)</p>
+					<p><a href="./praca_inzynierska.pdf">Praca inżynierska</a> - Bachelor's thesis</p>
+					</div>
+					<div class="well">
+					<h4>Animowany rzut ukośny - python & C++</h4>
+					<p>Projekt zachowany na serwerze <a href="https://github.com/GaleonAD/projectile" target="_blank">git-a</a></p>
+					<div class="row">
+					<div class="col-md-4">
+ 					<div class="thumbnail">
+									<img src="./figs/p1.png" alt="Lights" style="width:100%">
+									<div class="caption"><p>Low wind.</p></div>
+				  </div>
+				  </div>
+					<div class="col-md-4">
+ 					<div class="thumbnail">
+									<img src="./figs/p2.png" alt="Lights" style="width:100%">
+									<div class="caption"><p>Medium wind.</p></div>
+				  </div>
+				  </div>
+					<div class="col-md-4">
+ 					<div class="thumbnail">
+									<img src="./figs/p3.png" alt="Lights" style="width:100%">
+									<div class="caption"><p>Strong wind.</p></div>
+				  </div>
+				  </div>
+				  </div>
+					</div>
+				</div>
+
+				<div id="links" class="tab-pane fade">
+					<div class="well">
+					<h4>Łamigłówki</h4>
+					<p><a href="http://www.pazyl.pl" target="_blank">Pazyl</a> - mnóstwo nietypowych łamigłówek</p>
+					<p><a href="http://www.mozgowiec.pl" target="_blank">Mózgowiec</a> - dużo różnych zagadek</p>
+					<p><a href="https://www.wydawnictwologi.pl/piatkowy_mix_online" target="_blank">LOGI MIX</a> - co tydzień kilka prostych łamigłówek</p>
+					<p><a href="http://gmil.pwr.edu.pl" target="_blank">GMiL</a> - mistrzostwa w zagadkach</p>
+					</div>
+
+					<div class="well">
+					<h4>Matematyka</h4>
+					<p><a href="http://www.deltami.edu.pl" target="_blank">deltami</a> - Portal popularnonaukowy miesięcznika "Delta"
+					<p><a href="http://dydmat.mimuw.edu.pl" target="_blank">dydmat</a> - Portal dydaktyczny Uniwersytetu Warszawskiego</p>
+					<p><a href="http://wazniak.mimuw.edu.pl" target="_blank">wazniak</a> - Jeszcze trochę materiałów dydaktycznych z Uniwersytetu Warszawskiego (z myślą o informatykach)</p>
+					<p><a href="http://pl.khanacademy.org" target="_blank">KhanAcademy</a> - (jeszcze nie w całości) polska wersja portalu edukacyjnego Khan Academy
+					<p><a href="http://mst.mimuw.edu.pl" target="_blank">mst</a> - Bardziej zaawansowane materiały dydaktyczne z Uniwersytetu Warszawskiego</p>
+					<p>"<a href="http://wmii.uwm.edu.pl/~panas/zajecia/ListaKsiazek/ListaKsiazek.pdf" target="_blank">Lista książek</a> obowiązkowych dla każdego matematyka"</p>
+					</div>
+
+					<div class="well">
+					<h4>Fizyka</h4>
+					<p><a href="http://www.deltami.edu.pl" target="_blank">deltami</a> - Portal popularnonaukowy miesięcznika "Delta"
+					<p><a href="http://www.fis.agh.edu.pl/~lenda/" target="_blank">Lenda</a> - Strona zawiera wiele ciekawych materiałów autorstwa znakomitego prof. A. Lendy
+					<p><a href="http://www.fuw.edu.pl/~amt/amt.html" target="_blank">Trautman</a> - Strona domowa prof. A. Trautmana
+					<p><a href="http://www.cft.edu.pl/edu/" target="_blank">CFT</a> - Polskie centrum fizyki teoretycznej 
+					</div>
+
+				</div>
+
+				<div id="contact" class="tab-pane fade">
+					<h4>Email</h4>
+					<table class="table"> 
+					<thead>
+						<tr style="font-weight:bold">
+							<td>główny/main</td>
+							<td><a href="mailto:pwrzonca@gmail.com">pwrzonca@gmail.com</a> </td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>AGH</td>
+							<td><a href="mailto:addin@student.agh.edu.pl">addin@student.agh.edu.pl</a> </td>
+						</tr>
+					</tbody>
+					<tbody>
+						<tr>
+							<td>git</td>
+							<td><a href="https://github.com/GaleonAD">github.com/GaleonAD</a></td>
+						</tr>
+					</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+
+    <div class="col-sm-2">
+              
+    </div>
+
+   </div>
+</div>
+
+<div class="navbar-bottom navbar-text">
+  
+</div>
+
+
+</body>
+</html>
+
