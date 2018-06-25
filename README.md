@@ -1,1 +1,1 @@
-# strona ala portfolio/magazyn galeonad.github.io
+# strona  galeonad.github.io
