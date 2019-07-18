@@ -1,1 +1,1 @@
-# strona  galeonad.github.io
+# galeon's personal web page repo
